@@ -60,7 +60,6 @@ function App() {
         <BannerFunction/>
         {/* <Card/> */}
         {CardsOfBrands}
-        
       </DrawerAppBar>
     </div>
   );
