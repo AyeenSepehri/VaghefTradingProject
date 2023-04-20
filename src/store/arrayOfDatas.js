@@ -8,6 +8,8 @@ import zildjianLogo from "../assets/zildjian/download.png";
 import palatinoLogo from "../assets/palatino/Logo+Black+with+HOME+Tag+2020.png";
 import mayBerlinLogo from "../assets/may berlin/MayBerlin-300x146.jpg";
 import kurzweilLogo from "../assets/kurzweil/images.png"
+import tanglewoodLogo from "../assets/Tanglewood/tanglewood-logo-square.jpg";
+import fernandesLogo from "../assets/fernandes/download.png"
 
 export const brandsDatas = [
     {
@@ -87,6 +89,22 @@ export const brandsDatas = [
         name: "Kurzweil",
         logo: kurzweilLogo,
         summery: "برند کورزویل یک برند انحصاری تولید پیانو دیچیتال آمریکایی است برای مشاهده بیشتر کلیک کنید",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        images: []
+    },
+    {
+        id: Math.random(),
+        name: "tanglewoodLogo",
+        logo: tanglewoodLogo,
+        summery: "تنگلوود یک برند تولید کننده گیتار است که در کشور انگلستان بسیار محبوب است برای مشاهده بیشتر کلیک کنید",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        images: []
+    },
+    {
+        id: Math.random(),
+        name: "Fernandes",
+        logo: fernandesLogo,
+        summery: "فرناندز یک برند ژاپنی ساخت و تولید گیتار الکتریک و بیس است برای اطلاعات بیشتر کلیک کنید",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         images: []
     }
