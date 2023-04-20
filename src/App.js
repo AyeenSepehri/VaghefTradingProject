@@ -2,7 +2,7 @@ import DrawerAppBar from "./components/navbar/NavBar";
 import BannerFunction from "./components/banner/Banner";
 import Card from "./components/cards/Card";
 import { useSelector } from "react-redux";
- 
+import { TextBox } from "./components/textBox/TextBox";
 
 function App() {
 
@@ -18,6 +18,7 @@ function App() {
     <div>
       <DrawerAppBar>
         <BannerFunction/>
+        <TextBox/>
         {CardsOfBrands}
       </DrawerAppBar>
     </div>
