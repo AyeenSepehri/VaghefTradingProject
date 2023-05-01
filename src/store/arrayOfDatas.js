@@ -1,15 +1,15 @@
 import staggLogo from "../assets/Stagg Images/staggLogo.jpg";
 import steveLogo from "../assets/Steve Images/esteve-logo.jpg";
 import steinwayLogo from "../assets/Steinway Images/steinway-and-sons-logo.png";
-import rotosoundLogo from "../assets/Rotosound Images/Header-Rotosound-Logo.png";
+import rotosoundLogo from "../assets/Rotosound Images/Rotosound-Logo.png";
 import youngChangLogo from "../assets/Young Chang Images/images.jpg";
-import sonorLogo from "../assets/Sonor/images (1).png";
+import sonorLogo from "../assets/Sonor/sonor.jpg";
 import zildjianLogo from "../assets/zildjian/download.png";
-import palatinoLogo from "../assets/palatino/Logo+Black+with+HOME+Tag+2020.png";
+import palatinoLogo from "../assets/palatino/PalatinoLogo.jpg";
 import mayBerlinLogo from "../assets/may berlin/MayBerlin-300x146.jpg";
-import kurzweilLogo from "../assets/kurzweil/images.png"
+import kurzweilLogo from "../assets/kurzweil/kurzweilFinal.jpg"
 import tanglewoodLogo from "../assets/Tanglewood/tanglewood-logo-square.jpg";
-import fernandesLogo from "../assets/fernandes/download.png"
+import fernandesLogo from "../assets/fernandes/finalFernandes.jpg"
 
 export const brandsDatas = [
     {
