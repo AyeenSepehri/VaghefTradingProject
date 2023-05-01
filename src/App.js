@@ -3,6 +3,7 @@ import BannerFunction from "./components/banner/Banner";
 import Card from "./components/cards/Card";
 import { useSelector } from "react-redux";
 import { TextBox } from "./components/textBox/TextBox";
+import Wrapper from "./Layout/Wrapper";
 
 function App() {
 
@@ -17,9 +18,11 @@ function App() {
   return (
     <div>
       <DrawerAppBar>
-        <BannerFunction/>
-        <TextBox/>
-        {CardsOfBrands}
+        <BannerFunction />
+        <TextBox />
+        <Wrapper>
+          {CardsOfBrands}
+        </Wrapper>
       </DrawerAppBar>
     </div>
   );
