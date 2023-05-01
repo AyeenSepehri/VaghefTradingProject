@@ -5,6 +5,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { Button, CardActionArea, CardActions } from '@mui/material';
 import { useState } from 'react';
+import classes from "./Card.module.css"
 
 
 export default function MultiActionAreaCard(props) {
@@ -26,31 +27,34 @@ export default function MultiActionAreaCard(props) {
 
 
   return (
-    <Card sx={{ maxWidth: 345 , my: 2 , display: "inline-block" , mx: 2}}>
+    <Card sx={{ maxWidth: 345, my: 2, display: "inline-block", mx: 2 }} className={classes.root}>
       <CardActionArea
-      sx={{height:300}}
-      onMouseEnter={onHoverImage}
-      onMouseLeave={outHoverImage}
+        sx={{ height: 300 }}
+        onMouseEnter={onHoverImage}
+        onMouseLeave={outHoverImage}
       >
         <CardMedia
           component="img"
           height="140"
-          image= {props.image}
+          image={props.image}
           alt=""
+          className={classes.poster}
         />
-    <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
-          {props.brand}
-        </Typography>
-        <Typography variant="body2" color="text.secondary">ّ
-            {props.detail}
-        </Typography> 
-      </CardContent>
-   <CardActions>
-      {hoverStatus && <Button size="small" color="primary">
-        Share
-      </Button>}
-    </CardActions>
+        <div className={classes.description}>
+          <CardContent>
+            <Typography gutterBottom variant="h5" component="div">
+              {props.brand}
+            </Typography>
+            <Typography variant="body2" color="text.secondary">ّ
+              {props.detail}
+            </Typography>
+          </CardContent>
+          <CardActions>
+          {hoverStatus ? <Button size="large" color="primary">
+            مشاهده جزئیات
+          </Button> : <Button size="small" color="primary" sx={{ visibility: "hidden" }}/>}
+          </CardActions>
+        </div>
       </CardActionArea>
     </Card>
   );
