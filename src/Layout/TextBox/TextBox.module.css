@@ -1,0 +1,18 @@
+.main{
+    width: 800px;
+    height: 500px;
+    background-image: url("../../assets/BGTextBox/a629c4c76825bd5d529fad1fae5b77ea.png");
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+}
+
+.contentBox{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-top: 150px;
+    padding-right: 200px;
+}

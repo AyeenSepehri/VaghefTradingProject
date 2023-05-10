@@ -4,6 +4,7 @@ import Card from "./components/cards/Card";
 import { useSelector } from "react-redux";
 import { TextBox } from "./components/textBox/TextBox";
 import Wrapper from "./Layout/Wrapper";
+import TestBox from "./Layout/TextBox/TextBox";
 
 function App() {
 
@@ -18,11 +19,19 @@ function App() {
   return (
     <div>
       <DrawerAppBar>
+
         <BannerFunction />
+
         <TextBox />
+
         <Wrapper>
           {CardsOfBrands}
         </Wrapper>
+
+        <TestBox>
+          hello world
+        </TestBox>
+
       </DrawerAppBar>
     </div>
   );
